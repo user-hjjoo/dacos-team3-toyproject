@@ -56,20 +56,13 @@ dacos-team3-toyproject/
 │       └── y_test.csv
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_modeling.ipynb
-│   ├── 04_llm_analysis.ipynb
-│   └── 05_dashboard.ipynb
+│   ├── 01_edaNprocessing.ipynb
+│   ├── 02_modeling.ipynb
+│   └── 03_llm_analysis.ipynb
 │
 ├── docs/
 │   ├── project_plan.md
-│   ├── hypothesis.md
-│   ├── eda_summary.md
 │   ├── troubleshooting.md
-│   ├── llm_experiments.md
-│   ├── experiment_log.md
-│   ├── final_report.md
 │   └── retrospective.md
 │
 └── results/
@@ -79,11 +72,8 @@ dacos-team3-toyproject/
     │   ├── feature_importance.png
     │   └── confusion_matrix.png
     │
-    ├── metrics/
-    │   └── model_scores.csv
-    │
-    └── predictions/
-        └── prediction_examples.csv
+    └── metrics/
+        └── model_scores.csv
 ```
 
 ## 프로젝트 파이프라인
